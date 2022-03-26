@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+    background-color:azure;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    /* margin: 0; */
+    font-family: 'Cairo', sans-serif;
+    font-size: medium;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ul {
+    padding: 0;
+} */
+
+/* a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+} */
+
+
+.nav {
+    background: url(https://web-store.escapefromtarkov.com/themes/eft/images/news_li_bg.png) repeat top left scroll;
+    background-color: #949494;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+  /* border: 5px solid black;
+  border-radius: 15px; */
+  background: white;
+  font-weight: 600;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 20px;
+  /* overflow: hidden;
+  display: block;
+  width: 100%; */
+
+  transition: .4s;
+}
+
+.nav-link:hover {
+    transition: .4s;
+    background: none;
+    color: white;
+}
+
+/* .nav-link:after {
+    transition: .4s;
+} */
